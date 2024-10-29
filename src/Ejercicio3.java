@@ -170,12 +170,12 @@ public class Ejercicio3 {
         System.out.println("Estadística \033[1m\033[34mfinal\033[0m\033[0m del alumnado");
         System.out.println("=====================================================================================");
         System.out.println("El total de alumnos/as aprobados son: " + "\033[35m" + aprobados + "\033[0m");
-        System.out.println("El total de alumnos/as aprobados son: " + "\033[35m" + suspensos + "\033[0m");
+        System.out.println("El total de alumnos/as suspensos son: " + "\033[35m" + suspensos + "\033[0m");
 
         if (aprobados > suspensos){
             System.out.println("Por tanto, hay mayor número de aprobados que de suspensos.");
         }else if(suspensos > aprobados){
-            System.out.println("Por tanto, hay mayor número de aprobados que de suspensos.");
+            System.out.println("Por tanto, hay mayor número de suspensos que de aprobados.");
         }else{
             System.out.println("Por tanto, hay igual número de alumnos aprobados que de suspensos.");
         }
