@@ -1,8 +1,8 @@
 /*
 Ejercicio 2.
 Un número Al-Ándalus es un número entero que es divisible entre la suma de sus dígitos.
-Por ejemplo, 2024 es un número Al-Ándalus ya que 2+0+2+4=8 y 2024 es divisible entre 8.
-Además, 2024 es un número Navideño, ya que la suma de sus divisores es mayor que él mismo:
+Por ejemplo, 2024 es un número Al-Ándalus, ya que 2+0+2+4=8 y 2024 es divisible entre 8.
+Además, 2024 es un número Navideño, puesto que la suma de sus divisores es mayor que él mismo:
 1+2+4+8+11+22+23+44+46+88+92+184+253+506+1012=2296>2024.
 
 Implementa un programa en Java que dados dos números positivos introducidos por teclado por el usuario, determine
